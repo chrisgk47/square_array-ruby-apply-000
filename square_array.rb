@@ -1,5 +1,5 @@
 def square_array(array)
-  my_arr = []
-  array.each do {|i| my_arr << i **2} 
+  array = [1, 2, 3]
+  array.each do |i| array << i ** 2
   end
 end
